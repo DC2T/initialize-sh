@@ -1,3 +1,2 @@
-rm -rf /home/worker/*
-
+#install ffmpeg tool
 sudo apt install ffmpeg -y
