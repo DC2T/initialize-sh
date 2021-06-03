@@ -6,6 +6,9 @@ sudo apt install ffmpeg -y
 curl 'https://rclone.org/install.sh' | sudo bash
 
 cd ~/initialize-sh
+#make folder rclone
+mkdir ~/.config/rclone
+
 #copy file credentials.conf to /home/worker/.config/rclone/rclone.conf
 cp -if credentials.conf ~/.config/rclone/rclone.conf
 
