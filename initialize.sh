@@ -10,7 +10,7 @@ cd ~/initialize-sh
 [ ! -d ~/.config/rclone] && mkdir ~/.config/rclone
 
 #copy file rclone.conf to /home/worker/.config/rclone/rclone.conf
-yes | cp -rf rclone.conf ~/.config/rclone
+\cp -r rclone.conf ~/.config/rclone
 
 #check google drvie 
 rclone about gdrive:
